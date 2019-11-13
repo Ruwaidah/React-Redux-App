@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+/*  Header */
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+.header h1 {
+  width: 80%;
+  margin: 0 auto;
+  font-size: 60px;
+  padding-right: 80px;
+}
+
+.header img {
+  width: 9%;
+  margin: 0 auto;
+}
+
+/* Home Page */
+.home-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: url(./pixabay.png) no-repeat center;
+}
+
+.startPhotos {
+  padding-top: 100px;
+  text-decoration: none;
+  font-size: 40px;
+  color: #6ba72b;
+}
+
+/* Photos Page */
+.allphotos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.allphotos .input-form {
+  padding: 30px;
+  width: 100%;
+  margin: 0 auto;
+}
+.allphotos .input-form label {
+  font-size: 25px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  font-size: 25px;
+  outline: none;
+  margin-left: 20px;
+  border-bottom: #6ba72b solid 1px;
+}
+
+button {
+  border: none;
+  font-size: 20px;
+  background: #86c047;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+}
+
+.photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.Photo {
+  /* width: 35%; */
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.Photo .colifado .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colifado {
+  width: 300px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.user {
+  display: flex;
+  justify-content: space-between;
+}
+.user img {
+  border-radius: 20px;
+}
